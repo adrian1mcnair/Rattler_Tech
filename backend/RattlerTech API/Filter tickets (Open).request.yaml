@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/tickets?status=Open"
+method: GET
+order: 11000

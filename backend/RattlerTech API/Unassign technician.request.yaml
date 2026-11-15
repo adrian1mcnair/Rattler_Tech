@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/tickets/1/assign"
+method: DELETE
+order: 18000

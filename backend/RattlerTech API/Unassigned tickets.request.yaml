@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/tickets?assigned_to=none"
+method: GET
+order: 12000

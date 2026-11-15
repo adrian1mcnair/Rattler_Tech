@@ -1,0 +1,14 @@
+$kind: http-request
+name: Update ticket status/priority
+url: "{{baseUrl}}/tickets/1"
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "status": "In Progress",
+      "priority": "Critical"
+    }
+order: 16000

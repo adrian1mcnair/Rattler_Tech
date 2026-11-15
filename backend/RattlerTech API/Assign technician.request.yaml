@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/tickets/1/assign"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "technician_id": 5,
+      "assigned_by": 6
+    }
+order: 17000

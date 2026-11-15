@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/categories"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "name": "Printing",
+      "description": "Campus printers and print credits"
+    }
+order: 9000

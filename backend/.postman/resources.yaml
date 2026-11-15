@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: 9bab7967-67dd-4b4b-8b63-875c36026b1d
+
+localResources:
+  collections:
+    - ../RattlerTech API

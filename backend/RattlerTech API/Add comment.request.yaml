@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/tickets/1/comments"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "user_id": 4,
+      "message": "Looking into this now."
+    }
+order: 20000

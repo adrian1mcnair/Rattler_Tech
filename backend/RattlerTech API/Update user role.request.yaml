@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{baseUrl}}/users/2"
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "role": "faculty"
+    }
+order: 7000

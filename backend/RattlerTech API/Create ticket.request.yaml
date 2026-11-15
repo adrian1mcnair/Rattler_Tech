@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{baseUrl}}/tickets"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "title": "Canvas will not load",
+      "description": "Canvas shows a blank page on Chrome.",
+      "category_id": 2,
+      "created_by": 1,
+      "priority": "High"
+    }
+order: 15000

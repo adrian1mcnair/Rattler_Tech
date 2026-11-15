@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{baseUrl}}/users"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+      "first_name": "Test",
+      "last_name": "Student",
+      "email": "test.student@famu.edu",
+      "password": "password123",
+      "role": "student"
+    }
+order: 6000

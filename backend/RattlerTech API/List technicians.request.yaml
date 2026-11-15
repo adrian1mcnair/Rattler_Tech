@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/users?role=technician"
+method: GET
+order: 4000
